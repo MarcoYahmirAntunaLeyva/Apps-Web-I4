@@ -8,6 +8,7 @@ router.get('/time/:userId', getTimeToken);
 router.put('/update/:userId', updateToken);
 router.get("/users", getAllUsers);
 router.get("/users/:username", getUserByUsername);
+// User MultiRoles
 router.post("/users",saveUser)
 router.patch("/users/:userId", updateUser)
 router.delete("/users/:userId" , deleteUser)
